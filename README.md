@@ -73,6 +73,7 @@ php flarum cache:clear
 
 | Extension | Status |
 | --- | --- |
+| [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags) | [![Translation status](https://weblate.rob006.net/widgets/flarum/pt/fof-follow-tags/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-follow-tags/pt/) |
 
 <!-- fof-extensions-list-stop -->
 
