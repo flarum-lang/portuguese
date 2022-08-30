@@ -9,13 +9,6 @@
 		"pt-locale"
 	],
 	"license": "MIT",
-	"authors": [
-		{
-			"name": "Your Name",
-			"email": "your@email.net",
-			"homepage": "https://yourhomepage.com/"
-		}
-	],
 	"support": {
 		"issues": "https://github.com/flarum-lang/portuguese/issues",
 		"source": "https://github.com/flarum-lang/portuguese"
