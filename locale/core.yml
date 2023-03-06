@@ -7,6 +7,8 @@ core:
     appearance:
       colored_header_label: 'Cabeçalho colorido'
       colors_heading: Cores
+      colors_primary_label: 'Cor Primária'
+      colors_secondary_label: 'Cor Secundária'
       colors_text: 'Escolha duas cores para o tema do seu fórum. O primeiro será usado como uma cor de destaque, enquanto o segundo será usado para estilizar elementos de fundo.'
       custom_footer_heading: 'Rodapé personalizado'
       custom_footer_text: '=> core.ref.custom_footer_text'
@@ -45,6 +47,7 @@ core:
     dashboard:
       clear_cache_button: 'Limpar cache'
       description: 'Resumo do seu fórum.'
+      io_error_message: 'Não é possível escrever no Sistema de Ficheiros. Verifique as permissões do Sistema de Ficheiros. Ou tente executar pela linha de comandos.'
       title: Dashboard
       tools_button: Ferramentas
     edit_css:
