@@ -5,14 +5,14 @@ CHANGELOG
 1.0.0 (XXXX-XX-XX)
 ------------------
 
-**General changes**:
+**Alterações genéricas**:
 
-* Updated Day.js translations.
-* Updated Flarum core translations.
-* Updated validation translations.
+* Traduções Day.js actualizadas.
+* Traduções essenciais do Flarum actualizadas.
+* Validação das traduções actualizada.
 
 
-**Added support for new extensions**:
+**Adicionado suporte para novas extensões**:
 
 * [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache)
 * [`acpl/mobile-tab`](https://github.com/android-com-pl/mobile-tab)
