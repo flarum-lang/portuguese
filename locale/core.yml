@@ -22,7 +22,7 @@ core:
       edit_footer_button: '=> core.ref.custom_footer_title'
       edit_header_button: '=> core.ref.custom_header_title'
       enter_hex_message: 'Digite um código de cor hexadecimal.'
-      favicon_heading: Favicon
+      favicon_heading: 'Icone URL'
       favicon_text: 'Carregue uma imagem para ser exibida como ícone de atalho do fórum.'
       logo_heading: Logotipo
       logo_text: 'Carregue uma imagem para ser exibida no lugar do título do fórum.'
@@ -87,7 +87,7 @@ core:
       mail_host_label: Host
       mail_mailgun_domain_label: Dominio
       mail_mailgun_region_label: Região
-      mail_mailgun_secret_label: 'Secret key'
+      mail_mailgun_secret_label: 'Chave privada'
       mail_password_label: '=> core.ref.password'
       mail_port_label: Porta
       mail_ses_key_label: Chave
@@ -105,6 +105,7 @@ core:
       title: '=> core.ref.email'
     extension:
       configure_scopes: Configurações
+      confirm_purge: 'Limpar irá remover os dados da base de dados e ficheiros relacionados com a extensão. Não irá desinstalar a extensão; isso tem que ser efectuado usando o Composer. Tem a certeza que pretende continuar?'
       confirm_uninstall: 'A desinstalação removerá todas as entradas e ativos do banco de dados relacionados à extensão. Você tem certeza que quer continuar?'
       disabled: Disabilitar
       enable_to_see: 'Ative a extensão para visualizar e alterar as configurações.'
@@ -120,6 +121,11 @@ core:
       no_settings: 'Esta extensão não tem configurações.'
       open_modal: 'Abrir configurações'
       permissions_title: Permissões
+      purge_button: Limpar
+      readme:
+        button_label: 'LEIA ME'
+        no_readme: 'Esta extensão não parede ter um ficheiro LEIA ME'
+        title: '{extName} documentação'
       uninstall_button: Desinstalar
     extensions:
       add_button: 'Adicionar extensão'
@@ -231,13 +237,13 @@ core:
     invalid_username_message: 'O nome de usuário pode conter apenas letras, números e traços.'
   email:
     activate_account:
-      body: "Olá {username}!\nAlguém (esperamos que você!) se cadastrou em {forum} com este endereço de e-mail.\nSe foi você mesmo, basta clicar no link abaixo e sua conta será ativada:\n{url}\nSe você não se cadastrou, por favor ignore este e-mail.\n"
+      body: "Olá {username}!\n\nAlguém (esperamos que você!) se cadastrou em {forum} com este endereço de e-mail.\n\nSe foi você mesmo, basta clicar no link abaixo e sua conta será ativada:\n{url}\n\nSe você não se cadastrou, por favor ignore este e-mail.\n"
       subject: 'Ative sua nova conta'
     confirm_email:
-      body: "Olá {username}!\nAlguém (esperamos que você!) alterou o endereço de e-mail em {forum} para este aqui.\nSe foi você mesmo, basta clicar no link abaixo e seu e-mail será confirmado:\n{url}\nSe você não solicitou isso, por favor ignore este e-mail.\n"
+      body: "Olá {username}!\n\nAlguém (esperamos que você!) alterou o endereço de e-mail em {forum} para este aqui.\n\nSe foi você mesmo, basta clicar no link abaixo e seu e-mail será confirmado:\n{url}\n\nSe você não solicitou isso, por favor ignore este e-mail.\n"
       subject: 'Confirme seu novo endereço de e-mail'
     reset_password:
-      body: "Olá {username}!\nAlguém (esperamos que você!) enviou uma solicitação de redefinição de senha para sua conta em {forum}.\nSe foi você mesmo, clique no link abaixo para redefinir sua senha:\n{url}\nSe você não quiser alterar sua senha, basta ignorar este e-mail e nada irá acontecer.\n"
+      body: "Olá {username}!\n\nAlguém (esperamos que você!) enviou uma solicitação de redefinição de senha para sua conta em {forum}.\n\nSe foi você mesmo, clique no link abaixo para redefinir sua senha:\n{url}\n\nSe você não quiser alterar sua senha, basta ignorar este e-mail e nada irá acontecer.\n"
       subject: '=> core.ref.reset_your_password'
     send_test:
       body: "Olá, {username}!\n\nEste é um e-mail de teste para confirmar se a configuração de e-mail do Flarum está funcionando corretamente.\n\nSe foi você, este e-mail significa que sua configuração funciona!\n\nSe não foi você, ignore este e-mail.\n"
@@ -295,10 +301,12 @@ core:
       mark_as_read_tooltip: 'Marcar como Lido'
       replied_text: '{username} respondeu {ago}'
       started_text: '{username} iniciado {ago}'
+      total_replies_a11y_label: '{count, plural, one {# resposta} other {# respostas}}'
+      unread_replies_a11y_label: '{count, plural, one {# resposta por ler} other {# respostas por ler}}. Marcar {count, plural, one {resposta não lida, como lida} other {respostas não lidas, como lidas}}.'
     forgot_password:
       dismiss_button: '=> core.ref.okay'
       email_placeholder: '=> core.ref.email'
-      email_sent_message: 'Enviámos um e-mail com um link para redefinir sua senha. Verifique sua pasta de spam se não a receber dentro de um ou dois minutos.'
+      email_sent_message: 'Enviámos um e-mail com um link para redefinir sua senha. Verifique sua pasta de spam, se não a receber dentro de um ou dois minutos.'
       not_found_message: 'Não há usuário registrado com esse endereço de e-mail.'
       submit_button: 'Recuperar Senha'
       text: 'Digite seu endereço de e-mail e enviaremos um link para redefinir sua senha.'
@@ -310,7 +318,9 @@ core:
       log_in_link: '=> core.ref.log_in'
       log_out_button: '=> core.ref.log_out'
       profile_button: Perfil
+      search_clear_button_accessible_label: 'Limpar a pesquisa'
       search_placeholder: Pesquisar
+      search_role_label: Pesquisar
       session_dropdown_accessible_label: 'Abrir o menu de opções das sessões'
       settings_button: '=> core.ref.settings'
       sign_up_link: '=> core.ref.sign_up'
@@ -340,6 +350,8 @@ core:
       title: '=> core.ref.log_in'
       username_or_email_placeholder: 'Nome de usuário ou e-mail'
     notifications:
+      delete_all_confirm: 'Tem a certeza que pretende apagar todas as notificações? Esta operação é irreversível'
+      delete_all_tooltip: 'Apagar todas as notificações'
       discussion_renamed_text: '{username} alterou o título'
       empty_text: 'Nenhuma notificação'
       mark_all_as_read_tooltip: '=> core.ref.mark_all_as_read'
@@ -381,6 +393,7 @@ core:
       account_heading: Conta
       change_email_button: '=> core.ref.change_email'
       change_password_button: '=> core.ref.change_password'
+      notification_checkbox_a11y_label_template: 'Receber "{description}" notificações através de {method}'
       notifications_heading: '=> core.ref.notifications'
       notify_by_email_heading: '=> core.ref.email'
       notify_by_web_heading: Notificações
@@ -421,6 +434,8 @@ core:
       alert_message: '=> core.ref.confirmation_email_sent'
       resend_button: 'Reenviar e-mail de confirmação'
       sent_message: Enviar
+    welcome_hero:
+      hide: 'Ocultar mensagem de boas-vindas'
   group:
     admin: Administrador
     admins: Administradores
@@ -431,8 +446,11 @@ core:
     mod: Moderador
     mods: Moderadores
   lib:
+    alert:
+      dismiss_a11y_label: 'Desactivar alerta'
     badge:
       hidden_tooltip: Escondido
+    debug_button: Depurar
     dropdown:
       toggle_dropdown_accessible_label: 'Abrir o menu'
     edit_user:
@@ -440,6 +458,7 @@ core:
       email_heading: '=> core.ref.email'
       email_label: '=> core.ref.email'
       groups_heading: Grupos
+      nothing_available: 'Não tem permissão para editar este utilizador.'
       password_heading: '=> core.ref.password'
       password_label: '=> core.ref.password'
       set_password_label: 'Definir uma nova senha'
@@ -449,13 +468,23 @@ core:
       username_label: '=> core.ref.username'
     error:
       dependent_extensions_message: 'Não é possível desativar {extension} até que as seguintes extensões dependentes sejam desativadas: {extensions}'
+      extension_initialiation_failed_message: '{extension} falhou a inicializar, verifique a consola do navegador para mais informações.'
       generic_message: 'Opa! Algo deu errado. Por favor, recarregue a página e tente novamente.'
       missing_dependencies_message: 'Não é possível ativar {extension} até que as seguintes dependências sejam ativadas: {extensions}'
       not_found_message: 'O recurso solicitado não foi encontrado.'
+      payload_too_large_message: 'A carga solicitada era demasiado elevada.'
       permission_denied_message: 'Você não tem permissão para fazer isso.'
       rate_limit_exceeded_message: 'Você está indo um pouco rápido demais. Tente novamente em alguns segundos.'
+      render_failed_message: 'Desculpe, encontramos um erro ao tentar mostrar este conteudo. Se é um utilizador, por favor tente de novo mais tarde. Se é um administrador, consulte os ficheiros de. log no Flarum para mais informações.'
     loading_indicator:
       accessible_label: '=> core.ref.loading'
+    meta_titles:
+      with_page_title: '{pageNumber, plural, =1 {{pageTitle} - {forumName}} other {{pageTitle}: Página # - {forumName}}}'
+      without_page_title: '{pageNumber, plural, =1 {{forumName}} other {Página # - {forumName}}}'
+    modal:
+      close: Fechar
+    nav:
+      drawer_button: 'Abrir aba de navegação'
     number_suffix:
       kilo_text: K
       mega_text: M
@@ -470,6 +499,7 @@ core:
     change_email: 'Mudar E-mail'
     change_password: 'Mudar Senha'
     color: Cor
+    confirm_email: 'Confirmar o Email'
     confirm_password: 'Confirme a Senha'
     confirmation_email_sent: 'Enviámos um e-mail de confirmação para {email}. Se não chegar logo, verifique sua pasta de spam.'
     custom_footer_text: 'Adicione HTML a ser exibido na parte inferior da página.'
@@ -482,6 +512,7 @@ core:
     edit: Editar
     edit_user: 'Editar usuário'
     email: E-mail
+    extensions: Extensões
     icon: Ícone
     icon_text: 'Digite o nome de qualquer classe de ícone <a>FontAwesome</a> , <em>incluindo</em> o prefixo <code>fas fa-</code> .'
     load_more: 'Carregue mais'
@@ -511,6 +542,22 @@ core:
     write_a_reply: 'Escreva uma resposta...'
     you: Você
   views:
+    admin:
+      extensions:
+        caption: '=> core.ref.extensions'
+        disable: Desactivar
+        empty: 'Não ha extensões instaladas'
+        enable: Activo
+        name: 'Nome da extensão'
+        package_name: 'Nome do Pacote'
+        version: Versão
+      info:
+        caption: 'Informação da aplicação'
+      title: Administração
+    confirm_email:
+      submit_button: '=> core.ref.confirm_email'
+      text: 'Carrega no botão para confirmar a sua conta de email.'
+      title: '=> core.ref.confirm_email'
     content:
       javascript_disabled_message: 'Este site é melhor visualizado em um navegador moderno com JavaScript ativado.'
       load_error_message: 'Ocorreu um erro ao tentar carregar a versão completa deste site. Tente atualizar essa página para corrigir o erro.'
