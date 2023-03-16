@@ -410,6 +410,7 @@ core:
     security:
       browser_on_operating_system: '{browser} no {os}'
       cannot_terminate_current_session: 'Não foi possível terminar a sessão activa actual. Efectua logout.'
+      created: Criado
     settings:
       account_heading: Conta
       change_email_button: '=> core.ref.change_email'
