@@ -30,6 +30,7 @@ CHANGELOG
 * [`archlinux-de/flarum-click-image`](https://github.com/archlinux-de/flarum-click-image)
 * [`askvortsov/flarum-auto-moderator`](https://github.com/askvortsov1/flarum-auto-moderator)
 * [`askvortsov/flarum-categories`](https://github.com/askvortsov1/flarum-categories)
+* [`askvortsov/flarum-moderator-warnings`](https://github.com/askvortsov1/flarum-moderator-warnings)
 * [`flarum/akismet`](https://github.com/flarum/akismet)
 * [`flarum/approval`](https://github.com/flarum/approval)
 * [`flarum/emoji`](https://github.com/flarum/emoji)
