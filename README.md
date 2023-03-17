@@ -104,6 +104,7 @@ php flarum cache:clear
 | [`archlinux-de/flarum-click-image`](https://github.com/archlinux-de/flarum-click-image) | [![Estado da tradução](https://weblate.rob006.net/widgets/flarum/pt/archlinux-de-click-image/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/archlinux-de-click-image/pt/) |
 | [`askvortsov/flarum-auto-moderator`](https://github.com/askvortsov1/flarum-auto-moderator) | [![Estado da tradução](https://weblate.rob006.net/widgets/flarum/pt/askvortsov-auto-moderator/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/askvortsov-auto-moderator/pt/) |
 | [`askvortsov/flarum-categories`](https://github.com/askvortsov1/flarum-categories) | [![Estado da tradução](https://weblate.rob006.net/widgets/flarum/pt/askvortsov-categories/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/askvortsov-categories/pt/) |
+| [`askvortsov/flarum-moderator-warnings`](https://github.com/askvortsov1/flarum-moderator-warnings) | [![Estado da tradução](https://weblate.rob006.net/widgets/flarum/pt/askvortsov-moderator-warnings/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/askvortsov-moderator-warnings/pt/) |
 
 <!-- various-extensions-list-stop -->
 
