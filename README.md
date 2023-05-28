@@ -105,6 +105,7 @@ php flarum cache:clear
 | [`askvortsov/flarum-auto-moderator`](https://github.com/askvortsov1/flarum-auto-moderator) | [![Estado da tradução](https://weblate.rob006.net/widgets/flarum/pt/askvortsov-auto-moderator/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/askvortsov-auto-moderator/pt/) |
 | [`askvortsov/flarum-categories`](https://github.com/askvortsov1/flarum-categories) | [![Estado da tradução](https://weblate.rob006.net/widgets/flarum/pt/askvortsov-categories/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/askvortsov-categories/pt/) |
 | [`askvortsov/flarum-moderator-warnings`](https://github.com/askvortsov1/flarum-moderator-warnings) | [![Estado da tradução](https://weblate.rob006.net/widgets/flarum/pt/askvortsov-moderator-warnings/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/askvortsov-moderator-warnings/pt/) |
+| [`club-1/flarum-ext-server-side-highlight`](https://github.com/club-1/flarum-ext-server-side-highlight) | [![Estado da tradução](https://weblate.rob006.net/widgets/flarum/pt/club-1-server-side-highlight/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/club-1-server-side-highlight/pt/) |
 
 <!-- various-extensions-list-stop -->
 
