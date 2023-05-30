@@ -47,5 +47,7 @@ CHANGELOG
 * [`flarum/suspend`](https://github.com/flarum/suspend)
 * [`flarum/tags`](https://github.com/flarum/tags)
 * [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags)
+* [`webbinaro/flarum-affiliator`](https://github.com/eddiewebb/flarum-affiliator)
+* [`webbinaro/flarum-age-check`](https://github.com/eddiewebb/flarum-age-check)
 
 
