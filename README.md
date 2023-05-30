@@ -78,6 +78,7 @@ php flarum cache:clear
 | Extensão | Estado |
 | --- | --- |
 | [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags) | [![Estado da tradução](https://weblate.rob006.net/widgets/flarum/pt/fof-follow-tags/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-follow-tags/pt/) |
+| [`fof/polls`](https://github.com/FriendsOfFlarum/polls) | [![Estado da tradução](https://weblate.rob006.net/widgets/flarum/pt/fof-polls/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-polls/pt/) |
 
 <!-- fof-extensions-list-stop -->
 
@@ -108,6 +109,16 @@ php flarum cache:clear
 | [`club-1/flarum-ext-server-side-highlight`](https://github.com/club-1/flarum-ext-server-side-highlight) | [![Estado da tradução](https://weblate.rob006.net/widgets/flarum/pt/club-1-server-side-highlight/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/club-1-server-side-highlight/pt/) |
 | [`webbinaro/flarum-affiliator`](https://github.com/eddiewebb/flarum-affiliator) | [![Estado da tradução](https://weblate.rob006.net/widgets/flarum/pt/webbinaro-affiliator/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/webbinaro-affiliator/pt/) |
 | [`webbinaro/flarum-age-check`](https://github.com/eddiewebb/flarum-age-check) | [![Estado da tradução](https://weblate.rob006.net/widgets/flarum/pt/webbinaro-age-check/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/webbinaro-age-check/pt/) |
+| [`webbinaro/flarum-calendar`](https://github.com/eddiewebb/flarum-calendar) | [![Estado da tradução](https://weblate.rob006.net/widgets/flarum/pt/webbinaro-calendar/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/webbinaro-calendar/pt/) |
+| [`webbinaro/gpx-preview`](https://github.com/eddiewebb/flarum-gpx-preview) | [![Estado da tradução](https://weblate.rob006.net/widgets/flarum/pt/webbinaro-gpx-preview/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/webbinaro-gpx-preview/pt/) |
+| [`widayn/flarum-avatar-cropper`](https://github.com/WiDayn/flarum-avatar-cropper) | [![Estado da tradução](https://weblate.rob006.net/widgets/flarum/pt/widayn-avatar-cropper/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/widayn-avatar-cropper/pt/) |
+| [`wolfgang-demeter/flarum-ext-bbcode-5star-rating`](https://github.com/wolfgang-demeter/flarum-ext-bbcode-5star-rating) | [![Estado da tradução](https://weblate.rob006.net/widgets/flarum/pt/wolfgang-demeter-bbcode-5star-rating/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/wolfgang-demeter-bbcode-5star-rating/pt/) |
+| [`xelson/flarum-ext-chat`](https://github.com/Xelson/flarum-ext-chat) | [![Estado da tradução](https://weblate.rob006.net/widgets/flarum/pt/xelson-chat/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/xelson-chat/pt/) |
+| [`xsoft-ict/mason-tag`](https://github.com/xsoft-ict/fof-mason-tag) | [![Estado da tradução](https://weblate.rob006.net/widgets/flarum/pt/xsoft-ict-mason-tag/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/xsoft-ict-mason-tag/pt/) |
+| [`zerosonesfun/expired-posts`](https://github.com/zerosonesfun/expired-posts) | [![Estado da tradução](https://weblate.rob006.net/widgets/flarum/pt/zerosonesfun-expired-posts/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/zerosonesfun-expired-posts/pt/) |
+| [`zerosonesfun/flarum-bbcode-button`](https://github.com/zerosonesfun/flarum-bbcode-button) | [![Estado da tradução](https://weblate.rob006.net/widgets/flarum/pt/zerosonesfun-bbcode-button/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/zerosonesfun-bbcode-button/pt/) |
+| [`ziiven/flarum-daily-check-in`](https://github.com/Ziiven/flarum-daily-check-in) | [![Estado da tradução](https://weblate.rob006.net/widgets/flarum/pt/ziiven-daily-check-in/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/ziiven-daily-check-in/pt/) |
+| [`ziiven/flarum-fireworks`](https://github.com/Ziiven/flarum-fireworks) | [![Estado da tradução](https://weblate.rob006.net/widgets/flarum/pt/ziiven-fireworks/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/ziiven-fireworks/pt/) |
 
 <!-- various-extensions-list-stop -->
 
@@ -118,6 +129,7 @@ php flarum cache:clear
 
 | Extensão | Estado |
 | --- | --- |
+| [`ziiven/flarum-decoration-store`](https://extiverse.com/extension/ziiven/flarum-decoration-store) | [![Estado da tradução](https://weblate.rob006.net/widgets/flarum/pt/ziiven-decoration-store/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/ziiven-decoration-store/pt/) |
 
 <!-- premium-extensions-list-stop -->
 
