@@ -16,7 +16,7 @@ fof-polls:
   forum:
     composer_discussion:
       add_poll: 'Adicionar Votação'
-      edit_poll: '=> fof-polls.forum.moderation.editar'
+      edit_poll: '=> fof-polls.forum.moderation.edit'
     days_remaining: 'A votação termina em {time}.'
     modal:
       add_option_label: 'Adicionar uma Opção'
