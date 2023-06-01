@@ -3,6 +3,10 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 flarum-subscriptions:
+  email:
+    new_post:
+      body: "Olá {recipient_display_name}!\n\n{poster_display_name} colocou uma postagem numa discussão que estás a seguir: {title}.\n\nPara ver a nova actividade, segue o seguinte link:\n{url}\n\n---\n\n{content}\n\n---\n\nNão vai receber novas notificações sobre esta discussão até estar actualizado.\n"
+      subject: '[Nova Postagem] {title}'
   forum:
     badge:
       following_tooltip: '=> flarum-subscriptions.ref.following'
@@ -19,6 +23,7 @@ flarum-subscriptions:
       new_post_text: '{username} postou'
     settings:
       follow_after_reply_label: 'Seguir automaticamente discussões que eu responder'
+      notify_for_all_posts_label: 'Notificar sobre cada nova postagem e não só sobre a ultima discussão'
       notify_new_post_label: 'Alguém posta numa discussão que estou seguindo'
     sub_controls:
       follow_button: '=> flarum-subscriptions.ref.follow'
