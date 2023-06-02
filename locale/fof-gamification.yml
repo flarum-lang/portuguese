@@ -17,6 +17,8 @@ fof-gamification:
         converted: 'Foram convertidos com sucesso {number} gostos'
         converting: 'Os seus gostos estão a ser convertidos. Refresca o sitio daqui a alguns minutos para ver se o processo terminou. (O tempo de conversão pode ser elevado dependendo do numero total de gostos do seu forum)'
         help: 'Converter gostos prévios de flarum-ext-likes em votos a favor, assim como calcular os votos das discussões actuais.'
+      groups:
+        title: 'Grupos atribuidos automaticamente'
       rankings:
         blocked:
           help: 'Estes utilizadores não serão mostrados na página de classificação. Nomes de utilizadores devem ser separados por virgula seguido de espaço.'
