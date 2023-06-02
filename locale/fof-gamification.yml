@@ -14,6 +14,9 @@ fof-gamification:
         icon_name: 'Nome alternativo do icone'
       convert:
         button: 'Converter gostos em votos a favor'
+        converted: 'Foram convertidos com sucesso {number} gostos'
+        converting: 'Os seus gostos estão a ser convertidos. Refresca o sitio daqui a alguns minutos para ver se o processo terminou. (O tempo de conversão pode ser elevado dependendo do numero total de gostos do seu forum)'
+        help: 'Converter gostos prévios de flarum-ext-likes em votos a favor, assim como calcular os votos das discussões actuais.'
       rankings:
         blocked:
           help: 'Estes utilizadores não serão mostrados na página de classificação. Nomes de utilizadores devem ser separados por virgula seguido de espaço.'
@@ -24,6 +27,15 @@ fof-gamification:
         custom_image_3: 'Imagem do terceiro classificado'
         enable: 'Activar imagens customizadas'
         title: 'Página de classificação'
+      ranks:
+        help:
+          color: '#ffffff'
+          help: 'Indique o numero de votos a favor, o nome e o código hexadecimal da cor da classificação'
+          name: Nome
+          points: Pontos
+        number_title: 'Quantos crachás de classificação devem ser mostrados?'
+        ranks: 'Classificação costumizada'
+        title: Classificação
       save_settings: 'Guardar definições'
       votes:
         allow_self_votes: 'Os utilizadores podem votar nas suas próprias postagens'
