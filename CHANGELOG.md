@@ -54,6 +54,7 @@ CHANGELOG
 * [`fof/moderator-notes`](https://github.com/FriendsOfFlarum/moderator-notes)
 * [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth)
 * [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
+* [`fof/pwned-passwords`](https://github.com/FriendsOfFlarum/pwned-passwords)
 * [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions)
 * [`webbinaro/flarum-affiliator`](https://github.com/eddiewebb/flarum-affiliator)
 * [`webbinaro/flarum-age-check`](https://github.com/eddiewebb/flarum-age-check)
