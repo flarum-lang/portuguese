@@ -79,6 +79,7 @@ php flarum cache:clear
 
 | Extensão | Estado |
 | --- | --- |
+| [`fof/cookie-consent`](https://github.com/FriendsOfFlarum/cookie-consent) | [![Estado da tradução](https://weblate.rob006.net/widgets/flarum/pt/fof-cookie-consent/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-cookie-consent/pt/) |
 | [`fof/doorman`](https://github.com/FriendsOfFlarum/doorman) | [![Estado da tradução](https://weblate.rob006.net/widgets/flarum/pt/fof-doorman/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-doorman/pt/) |
 | [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags) | [![Estado da tradução](https://weblate.rob006.net/widgets/flarum/pt/fof-follow-tags/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-follow-tags/pt/) |
 | [`fof/gamification`](https://github.com/FriendsOfFlarum/gamification) | [![Estado da tradução](https://weblate.rob006.net/widgets/flarum/pt/fof-gamification/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-gamification/pt/) |
