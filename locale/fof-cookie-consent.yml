@@ -5,4 +5,6 @@
 fof-cookie-consent:
   admin:
     settings:
+      buttonText: 'Desactivar o texto o botão'
       configuration_title: 'Opções de configuração'
+      consentText: 'Conteúdo da mensagem'
