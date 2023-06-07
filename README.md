@@ -80,6 +80,7 @@ php flarum cache:clear
 | Extensão | Estado |
 | --- | --- |
 | [`fof/analytics`](https://github.com/FriendsOfFlarum/analytics) | [![Estado da tradução](https://weblate.rob006.net/widgets/flarum/pt/fof-analytics/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-analytics/pt/) |
+| [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu) | [![Estado da tradução](https://weblate.rob006.net/widgets/flarum/pt/fof-byobu/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-byobu/pt/) |
 | [`fof/cookie-consent`](https://github.com/FriendsOfFlarum/cookie-consent) | [![Estado da tradução](https://weblate.rob006.net/widgets/flarum/pt/fof-cookie-consent/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-cookie-consent/pt/) |
 | [`fof/doorman`](https://github.com/FriendsOfFlarum/doorman) | [![Estado da tradução](https://weblate.rob006.net/widgets/flarum/pt/fof-doorman/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-doorman/pt/) |
 | [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags) | [![Estado da tradução](https://weblate.rob006.net/widgets/flarum/pt/fof-follow-tags/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-follow-tags/pt/) |
