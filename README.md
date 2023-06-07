@@ -79,6 +79,7 @@ php flarum cache:clear
 
 | Extensão | Estado |
 | --- | --- |
+| [`fof/analytics`](https://github.com/FriendsOfFlarum/analytics) | [![Estado da tradução](https://weblate.rob006.net/widgets/flarum/pt/fof-analytics/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-analytics/pt/) |
 | [`fof/cookie-consent`](https://github.com/FriendsOfFlarum/cookie-consent) | [![Estado da tradução](https://weblate.rob006.net/widgets/flarum/pt/fof-cookie-consent/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-cookie-consent/pt/) |
 | [`fof/doorman`](https://github.com/FriendsOfFlarum/doorman) | [![Estado da tradução](https://weblate.rob006.net/widgets/flarum/pt/fof-doorman/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-doorman/pt/) |
 | [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags) | [![Estado da tradução](https://weblate.rob006.net/widgets/flarum/pt/fof-follow-tags/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-follow-tags/pt/) |
@@ -88,6 +89,7 @@ php flarum cache:clear
 | [`fof/polls`](https://github.com/FriendsOfFlarum/polls) | [![Estado da tradução](https://weblate.rob006.net/widgets/flarum/pt/fof-polls/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-polls/pt/) |
 | [`fof/pwned-passwords`](https://github.com/FriendsOfFlarum/pwned-passwords) | [![Estado da tradução](https://weblate.rob006.net/widgets/flarum/pt/fof-pwned-passwords/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-pwned-passwords/pt/) |
 | [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions) | [![Estado da tradução](https://weblate.rob006.net/widgets/flarum/pt/fof-reactions/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-reactions/pt/) |
+| [`fof/sitemap`](https://github.com/FriendsOfFlarum/sitemap) | [![Estado da tradução](https://weblate.rob006.net/widgets/flarum/pt/fof-sitemap/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-sitemap/pt/) |
 
 <!-- fof-extensions-list-stop -->
 
