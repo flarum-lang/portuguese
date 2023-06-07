@@ -20,8 +20,8 @@ fof-doorman:
     page:
       doorkey:
         allow-public:
-          switch-label: 'Torne o código de convite opcional quando o utilizador se regista'
-          title: 'Permitir registo público'
+          switch-label: 'Torne o código de convite opcional quando o utilizador se inscreve'
+          title: 'Permitir inscrição pública'
         heading:
           activate: 'Activa o utilizador'
           group: Grupo
