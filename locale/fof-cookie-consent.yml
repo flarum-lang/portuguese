@@ -6,5 +6,11 @@ fof-cookie-consent:
   admin:
     settings:
       buttonText: 'Desactivar o texto o botão'
+      ccTheme: Tema
+      configuration_button_title: 'Botão Aprender Mais'
       configuration_title: 'Opções de configuração'
       consentText: 'Conteúdo da mensagem'
+      learnMoreLinkText: Texto
+      learnMoreLinkUrl: Ligação
+      theme_popup_title: 'Cores pop-up'
+      theme_title: 'Opções do Tema'
