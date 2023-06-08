@@ -14,6 +14,7 @@ fof-byobu:
       make_public: 'Tornar esta discussão publica'
       remove_from_discussion: 'Abandonar esta discussão privada'
       send_pd: 'Enviar mensagem a {username}'
+      submit: OK
     composer_private_discussion:
       submit_button: 'Postar discussão privada'
       title_placeholder: 'Titulo da discussão privada'
@@ -24,6 +25,9 @@ fof-byobu:
     modal:
       help:
         add_recipients: 'Esta discussão será visível apenas aos utilizadores selecionados. É necessário pelo menos um destinatário (para alem de si).'
+        click_user_to_remove_tooltip: 'Clique para remover'
+        selected_users: 'Clique no nome de um utilizador para o remover.'
+        update_recipients: 'Esta discussão é visível apenas aos utilizadores que escolher aqui.'
       labels:
         search_field: 'Procurar utilizador'
         selected_users: 'Utilizadores selecionados'
@@ -33,6 +37,18 @@ fof-byobu:
     nav:
       nav_item: 'Discussões Privadas'
       start_button: 'Discutir em privado'
+    post:
+      recipients_modified:
+        added: '{username} adicionou {added} destinatários.'
+        added_and_removed: '{username} adicionou {added} destinatários e removeu {removed}.'
+        made_public: '{username} removeu todos os destinatários e tornou a discussão publica'
+        removed: '{username} removeu {removed} destinatários.'
+        removed_self: '{username} abandonou a discussão privada.'
     search:
       headings:
         groups: 'Grupos com permissões'
+    user:
+      byobu_link: 'Discussões privadas'
+      dropdown_label: 'Discussões privadas'
+      settings:
+        block_pd: 'Bloquear discussões privadas'

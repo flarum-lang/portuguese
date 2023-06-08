@@ -5,8 +5,14 @@
 fof-sitemap:
   admin:
     settings:
+      advanced_options_label: 'Opções avançadas'
       exclude_users: 'Excluir os perfis de utilizador do Mapa do Sitio'
       exclude_users_help: 'Por defeito qualquer utilizador visível a convidados será indexado'
+      frequency:
+        daily: Diariamente
+        hourly: 'De hora em hora'
+        twice_daily: 'Duas vezes ao dia'
+      frequency_label: 'Com que periodicidade deve o cronograma reconstruir a cache do sitemap?'
       mode_help: 'Selecionar o modo correcto para o tamanho do Forum é muito importante.'
       mode_help_large: '50.000 é o limite técnico para os ficheiros sitemap. Se tiver mais entradas para guardar, use esta opção!'
       mode_help_multi: 'Melhor opção para forums grandes, com mais de 10.000 items. Serão gerados ficheiros sitemap múltiplos comprimidos guardados na pasta /public'
@@ -16,3 +22,8 @@ fof-sitemap:
       mode_help_schedule: 'Os seguintes modos adicionam as suas tarefas ao cronograma do Flarum.'
       mode_help_schedule_setup: 'Sem o cronograma do Flarum correctamente configurado, os seguintes modos não vão correr. Veja aqui <a>mais informações</a>.'
       mode_label: 'Modo de operação'
+      modes:
+        multi_file: 'Múltiplos ficheiros'
+        runtime: 'Tempo de execução'
+      risky_performance_improvements: 'Activar melhorias de performance arriscadas'
+      risky_performance_improvements_help: 'Estas melhorias fazem a tarefa do CRON correr mais depressa para dados na ordem de milhões de linhas mas pode quebrar compatibilidade com agumas extensões.'
