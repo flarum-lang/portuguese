@@ -38,6 +38,7 @@ fof-byobu:
       nav_item: 'Discussões Privadas'
       start_button: 'Discutir em privado'
     notifications:
+      pd_added_text: '{username} adicionou-te a uma discussão privada'
       pd_label: 'Alguém me incluiu numa nova discussão privada'
       pd_reply_label: 'Alguém postou numa discussão privada onde eu participo'
       pd_reply_text: '{username} postou numa discussão privada onde tu participas'
