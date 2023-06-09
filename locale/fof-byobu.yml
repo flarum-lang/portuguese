@@ -3,6 +3,12 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 fof-byobu:
+  admin:
+    permission:
+      add_more_than_two_user_recipients: 'Adicione mais do que 2 destinatários à discussão privada'
+      create_private_discussions_with_blocking_users: 'Criar discussão privada com utilizadores que a bloqueiam'
+      create_private_discussions_with_groups: 'Criar discussão privada com grupos'
+      create_private_discussions_with_users: 'Criar uma discussão privada com outros utilizadores'
   forum:
     badges:
       is_private:
@@ -38,6 +44,7 @@ fof-byobu:
       nav_item: 'Discussões Privadas'
       start_button: 'Discutir em privado'
     notifications:
+      pd_added_label: 'Alguém me adiciona a uma discussão privada existente'
       pd_added_text: '{username} adicionou-te a uma discussão privada'
       pd_label: 'Alguém me incluiu numa nova discussão privada'
       pd_reply_label: 'Alguém postou numa discussão privada onde eu participo'
