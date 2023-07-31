@@ -35,6 +35,7 @@ fof-doorman:
         key: Chave
         max_uses: 'Utilizações máximas'
         title: 'Códigos de Convite'
+        total_uses: '{totalUses, plural, one {Usado {totalUses} vez} other {Usado {totalUses} vezes}}'
         used_times: '{remaining, plural, one {{remaining} utilização em falta} other {{remaining} utilizações em falta}}'
         warning: 'Esse convite já foi utilizado o número máximo de vezes.'
       title: Porteiro
