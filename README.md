@@ -140,7 +140,7 @@ php flarum cache:clear
 
 | Extensão | Estado |
 | --- | --- |
-| [`ziiven/flarum-decoration-store`](https://extiverse.com/extension/ziiven/flarum-decoration-store) | [![Estado da tradução](https://weblate.rob006.net/widgets/flarum/pt/ziiven-decoration-store/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/ziiven-decoration-store/pt/) |
+| [`ziiven/flarum-decoration-store`](https://flarum.org/extension/ziiven/flarum-decoration-store) | [![Estado da tradução](https://weblate.rob006.net/widgets/flarum/pt/ziiven-decoration-store/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/ziiven-decoration-store/pt/) |
 
 <!-- premium-extensions-list-stop -->
 
