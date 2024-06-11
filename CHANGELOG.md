@@ -72,7 +72,7 @@ CHANGELOG
 * `zerosonesfun-bbcode-button`
 * [`zerosonesfun/expired-posts`](https://github.com/zerosonesfun/expired-posts)
 * [`ziiven/flarum-daily-check-in`](https://github.com/Ziiven/flarum-daily-check-in)
-* [`ziiven/flarum-decoration-store`](https://extiverse.com/extension/ziiven/flarum-decoration-store)
+* [`ziiven/flarum-decoration-store`](https://flarum.org/extension/ziiven/flarum-decoration-store)
 * [`ziiven/flarum-fireworks`](https://github.com/Ziiven/flarum-fireworks)
 
 
