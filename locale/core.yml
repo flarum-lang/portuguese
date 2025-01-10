@@ -247,6 +247,8 @@ core:
             title: Grupos
           join_time:
             title: Entrou
+          user_actions:
+            title: Ações
           user_id:
             title: ID
           username:
@@ -519,6 +521,8 @@ core:
       hidden_tooltip: Escondido
     data_segment:
       label: '{label}:'
+    datetime_formats:
+      humanTimeShort: 'D MMM'
     debug_button: Depurar
     dropdown:
       toggle_dropdown_accessible_label: 'Abrir o menu'
