@@ -8,8 +8,8 @@ flarum-suspend:
       suspend_users_label: 'Suspender usuários'
   forum:
     notifications:
-      user_suspended_text: '{username} suspendeu você por {timeReadable}'
-      user_unsuspended_text: '{username} retirou sua suspensão'
+      user_suspended_text: 'Você foi suspenso por {timeReadable}'
+      user_unsuspended_text: 'Você deixou de estar suspenso'
     suspend_user:
       indefinitely_label: 'Suspenso indefinidamente'
       limited_time_days_text: ' dias'
