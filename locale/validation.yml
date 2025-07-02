@@ -20,7 +20,7 @@ validation:
     tag_count_primary: 'número de tags primárias'
     tag_count_secondary: 'número de tags secundárias'
     title: título
-    username: 'nome de usuário'
+    username: 'nome de utilizador'
   before: 'O :attribute deve ser uma data antes de :date.'
   before_or_equal: 'O :attribute deve ser uma data antes ou igual a :date.'
   between:

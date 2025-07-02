@@ -14,3 +14,16 @@ flarum-markdown:
       ordered_list_tooltip: 'Adicionar uma lista numerada'
       quote_tooltip: 'Inserir uma cotação'
       unordered_list_tooltip: 'Adicionar uma lista com marcadores'
+  lib:
+    composer:
+      bold_tooltip: 'Adicionar texto a negrito'
+      code_tooltip: 'Inserir código'
+      header_tooltip: 'Adicionar cabeçalho'
+      image_tooltip: 'Adicionar uma imagem'
+      italic_tooltip: 'Adicionar texto a itálico'
+      link_tooltip: 'Adicionar um endereço'
+      ordered_list_tooltip: 'Adicionar uma lista ordenada'
+      quote_tooltip: 'Adicionar uma citação'
+      spoiler_tooltip: 'Adicionar um spoiler'
+      strikethrough_tooltip: 'Adicionar texto rasurado'
+      unordered_list_tooltip: 'Adicionar lista de pontos'
