@@ -91,6 +91,7 @@ php flarum cache:clear
 | [`fof/pwned-passwords`](https://github.com/FriendsOfFlarum/pwned-passwords) | [![Estado da tradução](https://weblate.rob006.net/widgets/flarum/pt/fof-pwned-passwords/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-pwned-passwords/pt/) |
 | [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions) | [![Estado da tradução](https://weblate.rob006.net/widgets/flarum/pt/fof-reactions/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-reactions/pt/) |
 | [`fof/sitemap`](https://github.com/FriendsOfFlarum/sitemap) | [![Estado da tradução](https://weblate.rob006.net/widgets/flarum/pt/fof-sitemap/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-sitemap/pt/) |
+| [`fof/split`](https://github.com/FriendsOfFlarum/split) | [![Estado da tradução](https://weblate.rob006.net/widgets/flarum/pt/fof-split/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-split/pt/) |
 
 <!-- fof-extensions-list-stop -->
 
