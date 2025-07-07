@@ -31,12 +31,12 @@ fof-reactions:
             Label: 'Converter reações em Gostos'
             legend: Gostos
           warning: 'A mesma reação <strong>não pode</strong> ser convertida para um gosto <strong> e um</strong> voto a favor'
-        react_own_posts_help: 'Quando activo, carecendo de permissão, os utilizadores podem reagir às suas próprias postagens no forum. Para prevenir que os utilizadores reajam às suas postagens, desactive esta opção.'
-        react_own_posts_label: 'Os utilizadores podem reagir às suas postagens'
+        react_own_posts_help: 'Quando ativado, carecendo de permissão, os utilizadores podem reagir às suas próprias publicações no forum. Para prevenir que os utilizadores reajam às suas publicações, desative esta opção.'
+        react_own_posts_label: 'Os utilizadores podem reagir às suas próprias publicações,'
         save_settings: 'Gravar definições'
     permissions:
       react_posts_label: 'Reagir a uma publicação'
-      see_reactions_label: 'Ver quem reagiu a postagens'
+      see_reactions_label: 'Visualizar quem reagiu a publicações'
   forum:
     disabled-reaction: 'Não podes usar esta reação agora, por favor refresca a página'
     mod_item: 'Ver Reações'
@@ -46,5 +46,5 @@ fof-reactions:
     react_button_label: Reagir
     reacting-own-post: 'Não podes reagir à tua própria publicação'
     settings:
-      notify_post_reacted_label: 'Alguém reagiu a uma das minhas postagens'
+      notify_post_reacted_label: 'Alguém reagiu a uma das minhas publicações'
     warning: 'A tua reação foi convertida'

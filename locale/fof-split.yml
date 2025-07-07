@@ -11,6 +11,8 @@ fof-split:
       new_discussion_label: 'Indicar o título da nova discussão'
       submit_button: Separar
       title: 'Separar a discussão'
+    post:
+      was_split_to: '{count, plural, one {{count} publicação foi separada para {target}.} other {{count} publicações foram separadas para {target}.}}'
     split:
       cancel: 'Cancelar a separação'
       from: 'Separar a partir daqui'

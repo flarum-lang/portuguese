@@ -6,7 +6,7 @@ fof-sitemap:
   admin:
     settings:
       advanced_options_label: 'Opções avançadas'
-      exclude_users: 'Excluir os perfis de utilizador do Mapa do Sitio'
+      exclude_users: 'Apagar os perfis de utilizador do mapa do site'
       exclude_users_help: 'Por defeito qualquer utilizador visível a convidados será indexado'
       frequency:
         daily: Diariamente

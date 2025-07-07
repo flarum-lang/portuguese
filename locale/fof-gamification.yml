@@ -5,7 +5,7 @@
 core:
   forum:
     index_sort:
-      hot_button: Tendendo
+      hot_button: 'Em destaque'
       votes_button: 'Votos a favor'
 fof-gamification:
   admin:
@@ -16,7 +16,7 @@ fof-gamification:
         button: 'Converter gostos em votos a favor'
         converted: 'Foram convertidos com sucesso {number} gostos'
         converting: 'Os seus gostos estão a ser convertidos. Refresca o sitio daqui a alguns minutos para ver se o processo terminou. (O tempo de conversão pode ser elevado dependendo do numero total de gostos do seu forum)'
-        help: 'Converter gostos prévios de flarum-ext-likes em votos a favor, assim como calcular os votos das discussões actuais.'
+        help: 'Converter gostos anteriores provenientes do flarum-ext-likes em votos a favor, assim como calcular os votos das discussões actuais.'
       groups:
         add: 'Adicionar nova regra'
         column:
@@ -28,13 +28,13 @@ fof-gamification:
         title: 'Grupos atribuidos automaticamente'
       rankings:
         blocked:
-          help: 'Estes utilizadores não serão mostrados na página de classificação. Nomes de utilizadores devem ser separados por virgula seguido de espaço.'
-          placeholder: 'admin, user1, user2'
+          help: 'Estes utilizadores não serão exibidos na página de classificação. Nomes de utilizadores devem ser separados por virgula seguido de um espaço.'
+          placeholder: 'admin, utilizador1, utilizador2'
           title: 'Ignorar utilizadores'
         custom_image_1: 'Imagem do primeiro classificado'
         custom_image_2: 'Imagem do segundo classificado'
         custom_image_3: 'Imagem do terceiro classificado'
-        enable: 'Activar imagens customizadas'
+        enable: 'Ativar imagens customizadas'
         title: 'Página de classificação'
       ranks:
         help:
@@ -47,35 +47,35 @@ fof-gamification:
         title: Classificação
       save_settings: 'Guardar definições'
       votes:
-        allow_self_votes: 'Os utilizadores podem votar nas suas próprias postagens'
-        alternate_layout: 'Usar um layout alternativo de votação na lista de discussão'
-        alternate_post_layout: 'Utilizar layout alternativo nas postagens'
-        auto_upvote: 'Votar automaticamente a favor quando postar'
+        allow_self_votes: 'Os utilizadores podem votar nas suas próprias publicações'
+        alternate_layout: 'Utilizar um layout alternativo para a votação na lista de discussões'
+        alternate_post_layout: 'Utilizar layout alternativo nas publicações'
+        auto_upvote: 'Votar automaticamente a favor quando publicar'
         color_holder: '#ffffff'
-        discussion_page: 'Ver o total de votos na postagem original na lista de discussões'
-        first_post_only: 'Permitir apenas votos a favor/contra na primeira postagem da discussão'
+        discussion_page: 'Visualizar o total de votos da publicação original na lista de discussões'
+        first_post_only: 'Permitir apenas votos a favor/contra na primeira publicação da discussão'
         icon_help: 'Indique qualquer ícone Font-Awesome que tem como sufixo -up e -down. Exemplos: arrow, thumbs, chevron'
-        icon_name: 'Icone voto a favor/contra'
+        icon_name: 'Ícone para voto a favor/contra'
         points_placeholder: 'Pontos: '
         points_title: 'Marcador de pontos'
-        rate_limit: 'Impor um limite de tempo de votação (10 segundos)'
+        rate_limit: 'Impor um limite de tempo entre votações (10 segundos)'
         title: Votos
         upvotes_only: 'Permitir apenas votos a favor'
         vote_color: 'Cor de voto'
     permissions:
       downvote_notifications: 'Receber notificações de votos contra'
-      see_ranking_page: 'Ver a página de ranking'
-      see_voters_label: 'Ver quem votou'
-      see_votes_label: 'Ver contagem de votos a favor/contra'
+      see_ranking_page: 'Visualizar a página de ranking'
+      see_voters_label: 'Visualizar quem votou'
+      see_votes_label: 'Visualizar contagem de votos a favor/contra'
       upvote_notifications: 'Receber notificações de votos a favor'
-      vote_label: 'Votar a favor/contra postagens'
+      vote_label: 'Votar a favor/contra publicações'
   email:
     body:
-      postVoted: "Olá {recipient_display_name},\n\n{actor_display_name} acabou de votar na sua postagem {discussion_title}.\n\nPode aceder aqui: {discussion_url}\n"
+      postVoted: "Olá {recipient_display_name},\n\n{actor_display_name} acabou de votar na sua publicação {discussion_title}.\n\nPode aceder aqui: {discussion_url}\n"
     subject:
-      postVoted: 'A sua postagem recebeu um voto de {display_name}'
+      postVoted: 'A sua publicação recebeu um voto de {display_name}'
   forum:
-    mod_item: 'Ver votantes'
+    mod_item: 'Visualizar votantes'
     modal:
       downvotes_label: 'Votantes contra:'
       title: Votantes
@@ -83,7 +83,7 @@ fof-gamification:
     nav:
       name: Classificações
     notification:
-      downvote: '{username} votou contra a tua publicação'
+      downvote: '{username} votou contra a sua publicação'
       prefrences:
         vote: 'Quando uma das minhas publicações for votada'
       upvote: '{username} votou a favor da sua publicação'
@@ -99,9 +99,9 @@ fof-gamification:
         points: '{count, plural, one { {count} ponto} other {{count} pontos}}'
       rank: '{rank}'
       votes_link: Votos
-    vote_title: 'Mostar quem votou'
+    vote_title: 'Exibir quem votou'
     voters:
       label: Votantes
       label_none: 'Sem votantes'
-      none: 'Não tem votantes'
+      none: 'Ainda ninguém votou'
     votes: Votos
