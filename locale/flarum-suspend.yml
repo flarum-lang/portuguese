@@ -5,7 +5,7 @@
 flarum-suspend:
   admin:
     permissions:
-      suspend_users_label: 'Suspender usuários'
+      suspend_users_label: 'Suspender utilizadores'
   forum:
     notifications:
       user_suspended_text: 'Você foi suspenso por {timeReadable}'

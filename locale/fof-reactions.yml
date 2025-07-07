@@ -35,16 +35,16 @@ fof-reactions:
         react_own_posts_label: 'Os utilizadores podem reagir às suas postagens'
         save_settings: 'Gravar definições'
     permissions:
-      react_posts_label: 'Reagir a uma postagem'
+      react_posts_label: 'Reagir a uma publicação'
       see_reactions_label: 'Ver quem reagiu a postagens'
   forum:
     disabled-reaction: 'Não podes usar esta reação agora, por favor refresca a página'
     mod_item: 'Ver Reações'
     modal:
       title: Reações
-    notification: '{username} reagiu com {reaction} à tua postagem'
+    notification: '{username} reagiu com {reaction} à tua publicação'
     react_button_label: Reagir
-    reacting-own-post: 'Não podes reagir a uma postagem própria'
+    reacting-own-post: 'Não podes reagir à tua própria publicação'
     settings:
       notify_post_reacted_label: 'Alguém reagiu a uma das minhas postagens'
     warning: 'A tua reação foi convertida'

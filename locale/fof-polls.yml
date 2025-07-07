@@ -6,42 +6,142 @@ fof-polls:
   admin:
     permissions:
       change_vote: 'Alterar voto'
-      moderate: 'Editar e remover votações'
-      self_edit: 'Permitir aos utilizadores para alterar as suas votações'
-      start: 'Iniciar uma votação'
-      view_results_without_voting: 'Ver resultados sem votar'
-      vote: Votar
+      moderate: 'Editar e remover sondagens'
+      moderate_group: 'Editar e remover grupos de sondagens'
+      self_edit: 'Editar sondagens criadas (requer permissão para editar uma publicação)'
+      self_post_edit: 'Editar *todas* as sondagens em publicações pessoais (requer permissão para editar uma publicação)'
+      start: 'Iniciar uma sondagem'
+      start_global: 'Iniciar uma sondagem global'
+      start_group: 'Criar grupos de sondagens'
+      upload_images: 'Permitir aos utilizadores enviarem imagens para as sondagens'
+      view_group: 'Visualizar grupos de sondagens'
+      view_results_without_voting: 'Visualizar resultados sem votar'
+      vote: 'Votar nas sondagens'
     settings:
-      allow_option_image: 'Permitir URL de imagem para cada opção da votação'
+      allow_image_uploads: 'Permitir o envio de imagens para sondagens e para as suas opções'
+      allow_image_uploads_help: 'Se ativado, os utilizadores serão capazes de enviar imagens bem como fornecer um endereço URL referente à imagem (se ativado nas definições, estará sempre ativado para a própria sondagem).'
+      allow_option_image: 'Permitir endereço URL de imagem para cada opção da sondagem'
+      enable_global_polls: 'Ativar sondagens globais'
+      enable_global_polls_help: 'As sondagens globais não são referentes a uma publicação específica e podem ser acedidas através de uma página de sondagens dedicada.'
+      enabled_poll_groups: 'Ativar grupos de sondagens'
+      enabled_poll_groups_help: 'Grupos de sondagens permitem que agrupe sondagens, sendo visualizadas numa página dedicada.'
+      general:
+        heading: 'Definições gerais'
+        help: 'Estas definições controlam as funcionalidades básicas da extensão Polls.'
+      global_polls:
+        heading: 'Sondagens globais'
+        help: 'Estas definições controlam a funcionalidade de sondagens globais.'
+      image:
+        heading: 'Definições de Imagem'
+        help: 'Estas definições controlam as definições de imagens em sondagens.'
+      image_height: 'Redimensionar a altura da imagem'
+      image_width: 'Redimensionar o comprimento da imagem'
+      max_options: 'Máximo número de opções por sondagem'
+      options_color_blend: 'Cor do texto com mistura de cores nas opções da sondagem'
+      options_color_blend_help: 'Utilize esta opção para misturar cores e fazer com que as opções da sondagem sejam mais legíveis. Desativar se esta função causar problemas com a aparência do fórum, reduzindo a legibilidade.'
   forum:
+    answers: Respostas
+    compose:
+      add_title: 'Adicionar uma sondagem'
+      continue_editing: 'Continuar a editar'
+      edit_title: 'Editar sondagem'
+      polls_manager: 'Gestor de sondagens'
+      polls_preview: 'Visualizar sondagem'
+      success: 'A sondagem foi guardada com sucesso.'
     composer_discussion:
-      add_poll: 'Adicionar Votação'
+      add_poll: '=> fof-polls.forum.moderation.add'
       edit_poll: '=> fof-polls.forum.moderation.edit'
-    days_remaining: 'A votação termina em {time}.'
+      no_permission_alert: 'Não possui permissões para iniciar uma sondagem.'
+    days_remaining: 'A sondagem termina em {time}.'
+    max_votes_allowed: 'A sondagem permite votação em {max, plural, one {# opção} other {# opções}}.'
     modal:
-      add_option_label: 'Adicionar uma Opção'
-      add_title: 'Adicionar Votação'
-      date_placeholder: 'Date de fim da Votação (Opcional)'
-      edit_title: 'Editar Votação'
-      image_option_placeholder: 'URL da imagem (Opcional)'
+      add_option_label: 'Adicionar uma opção'
+      add_title: 'Adicionar sondagem'
+      allow_change_vote_label: 'Permitir aos utilizadores alterar o seu voto'
+      allow_multiple_votes_label: 'Permitir que os utilizadores votem em múltiplas opções'
+      date_placeholder: 'Data de fim da sondagem (opcional)'
+      delete: '=> core.ref.delete'
+      edit_title: 'Editar sondagem'
+      error: '=> core.lib.error.generic_message'
+      hide_votes_label: 'Ocultar votações até que a sondagem termine'
+      hide_votes_label_help: 'O utilizador que iniciou a sondagem poderá sempre visualizar os votos.'
+      image_option_placeholder: 'Endereço URL da imagem (opcional)'
       include_question: 'É necessário incluir uma pergunta'
-      max: 'Pode ter no máximo 10 respostas'
+      max: 'Pode ter no máximo {max} respostas'
+      max_votes_help: 'Definir a 0 para permitir aos utilizadores votarem em todas as opções.'
+      max_votes_label: 'Máximo de votações por utilizador'
       min: 'Tem que incluir no mínimo 2 respostas'
-      no_voters: 'Sem Votos'
+      no_voters: 'Sem votos'
       option_placeholder: Resposta
       options_label: Respostas
-      public_poll_label: 'Permitir aos utilizadores ver quem votou'
+      poll_image:
+        alt_help_text: 'O texto é necessário quando se deifne uma imagem, sendo exibido caso a imagem não possa ser carregada.'
+        alt_label: 'Texto alternativo da imagem'
+        help: 'Envie uma imagem para ser exibida junto à sondagem (opcional).'
+        label: 'Imagem da sondagem'
+        later_help: 'Poderá enviar uma imagem após a criação da sondagem.'
+      poll_option_image:
+        help: 'Envie uma imagem para ser exibida junto da resposta da sondagem (opcional).'
+        label: 'Imagem de uma resposta da sondagem'
+      public_poll_label: 'Permitir aos utilizadores visualizar quem votou'
       question_placeholder: Pergunta
-      submit: Submeter
+      submit: Enviar
+      subtitle_placeholder: 'Subtítulo/Descrição (opcional)'
+      tooltip:
+        options:
+          add-button: 'Adicionar resposta'
     moderation:
-      delete: 'Remover votação'
-      delete_confirm: 'Tem a certeza que pretende apagar esta votação?'
-      edit: 'Editar votação'
+      add: 'Adicionar sondagem'
+      delete: 'Remover sondagem'
+      delete_confirm: 'Tem a certeza que pretende apagar esta sondagem?'
+      edit: 'Editar sondagem'
     no_permission: 'Não tem permissões para votar'
-    poll_ended: 'Esta votação terminou.'
-    public_poll: 'Ver votantes'
+    page:
+      nav: Sondagens
+      nav-all: 'Todas as sondagens globais'
+      nav-groups: 'Grupos de sondagens'
+    poll:
+      cannot_change_vote: 'Não podes alterar o teu voto após votares.'
+      cannot_start_poll_button: 'Não foi possível iniciar a sondagem'
+      start_poll_button: 'Iniciar sondagem global'
+      submit_button: Votar
+      total_votes: '{count, plural, one {# voto foi realizado} other {# votos foram realizados}}'
+    poll_controls:
+      delete_confirmation: 'Tem a certeza que seja apagar esta sondagem?'
+      delete_error_message: 'Ocorreu algo enquanto se tentava apagar a sondagem.'
+      delete_label: '=> core.ref.delete'
+      delete_success_message: 'A sondagem foi apagada com sucesso.'
+      edit_label: '=> core.ref.edit'
+      view_label: '=> core.ref.view'
+    poll_ended: 'Esta sondagem terminou.'
+    poll_form:
+      delete: 'Apagar sondagem'
+      error: 'Ocorreu um erro a guardar a sondagem, por favor, contacte um administrador.'
+    poll_groups:
+      composer:
+        add_title: 'Adicionar grupo de sondagens'
+        delete: 'Apagar grupo de sondagens'
+        edit_title: 'Editar grupo de sondagens'
+        groups_manager: 'Gestor de grupos de sondagens'
+        save_changes: '=> core.ref.save_changes'
+    poll_never_ends: 'A sondagem nunca termina'
+    polls_count: '{count, plural, one { {count} voto} other {{count} votos}}'
+    polls_list:
+      empty_text: 'Parece que não existem sondagens a decorrer na comunidade.'
+      load_more_button: '=> core.ref.load_more'
+    polls_page:
+      title: Sondagens
+    public_poll: 'Visualizar votantes'
+    showcase:
+      active-polls: 'Sondagens ativas'
+      ended-polls: 'Sondagens concluídas'
+      no-active-polls: 'Neste momento não existem sondagens ativas.'
+      no-recent-polls: 'Neste momento não existem sondagens que tenham terminado recentemente.'
     tooltip:
-      badge: Votação
+      badge: Sondagem
       votes: '{count, plural, one {# voto} other {# votos}}'
+    upload_image:
+      remove_button: 'Apagar imagem'
+      upload_button: 'Enviar imagem'
     votes_modal:
       title: Votantes

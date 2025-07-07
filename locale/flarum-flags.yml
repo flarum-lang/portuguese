@@ -8,7 +8,7 @@ flarum-flags:
       flag_posts_label: 'Sinalizar posts'
       view_flags_label: 'Ver posts sinalizados'
     settings:
-      flag_own_posts_label: 'Permitir que os usuários sinalizem suas próprias postagens'
+      flag_own_posts_label: 'Permitir que os utilizadores sinalizem as suas próprias publicações'
       guidelines_url_label: 'URL das Regras da Comunidade'
       title: 'Configurações de Sinalização'
   forum:
