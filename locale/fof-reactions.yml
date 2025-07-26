@@ -5,42 +5,53 @@
 fof-reactions:
   admin:
     page:
+      cdn:
+        default-url: 'Predefinido: {url}'
+        help: "Por predefinição, os recursos das reações são servidos a partir da CDN da Cloudflare. Também tens a opção de especificar outro endereço de CDN\n conforme necessário. <code>[codepoint]</code> será substituído pelo codepoint do emoji.\n\nPor exemplo, para mudar para Noto Emoji via jsdelivr, deves inserir <code>https://cdn.jsdelivr.net/gh/googlefonts/noto-emoji@v2.040/svg/emoji_u[codepoint].svg</code>. Este campo NUNCA deve ser deixado vazio.\n"
+        label: URL
+        title: CDN
       convert:
         button: 'Converter reações antigas'
         converted: 'Foram convertidos com sucesso {number} gostos'
-        converting: 'As tuas reações estão a ser convertidas. Refresca o site daqui a alguns minutos para ver se o processo terminou. ( O tempo de conversão poderá demorar algum tempo, dependendo do número total de reações)'
-        help: 'Se acabou de actualizar a extensão, as suas reações necessitam ser convertidas. Se acabou de instalar a extensão, pode ignorar esta mensagem.'
+        converting: 'As tuas reações estão a ser convertidas. Atualiza o site daqui a alguns minutos para verificar se o processo terminou. (O tempo de conversão pode demorar, dependendo do número total de reações)'
+        help: 'Se acabaste de atualizar a extensão, as tuas reações precisam de ser convertidas. Se acabaste de instalar a extensão, podes ignorar esta mensagem.'
       reactions:
-        Helptext: 'Indica o nome (identificador) do emoji ou icone font-awesome e seleciona o type que pretendes.'
+        Helptext: 'Indica o nome (identificador) do emoji ou do ícone font-awesome e seleciona o tipo que pretendes.'
+        delete_confirmation: 'Tens a certeza de que queres eliminar esta reação? Esta ação não pode ser anulada.'
         help:
           display: Mostrar
           identifier: Identificador
-        reactions: 'Reações actuais'
-        title: 'Reações customizadas'
+        reactions: 'Reações atuais'
+        title: 'Reações personalizadas'
       settings:
+        allow-anonymous: 'Permitir reações anónimas (convidados)'
+        allow-anonymous-help: 'Se ativado, os convidados e utilizadores anónimos poderão reagir às publicações. Nota que as reações anónimas não serão associadas a um perfil de utilizador e serão agregadas na lista de reações.'
         integrations:
           gamification:
-            downvoteHelptext: 'Indica o identificador da reação que pretende converter automaticamente para um voto contra'
+            downvoteHelptext: 'Indica o identificador da reação que queres converter automaticamente num voto contra'
             downvoteLabel: 'Converter reações em votos contra'
             legend: Gamificação
-            upvoteHelptext: 'Indica o identificador da reação que pretende converter automaticamente para um voto a favor'
+            upvoteHelptext: 'Indica o identificador da reação que queres converter automaticamente num voto a favor'
             upvoteLabel: 'Converter reações em votos a favor'
           legend: Integrações
           likes:
-            Helptext: 'Indica o identificador da reação que pretende converter automaticamente para um gosto'
-            Label: 'Converter reações em Gostos'
+            Helptext: 'Indica o identificador da reação que queres converter automaticamente num gosto'
+            Label: 'Converter reações em gostos'
             legend: Gostos
-          warning: 'A mesma reação <strong>não pode</strong> ser convertida para um gosto <strong> e um</strong> voto a favor'
-        react_own_posts_help: 'Quando ativado, carecendo de permissão, os utilizadores podem reagir às suas próprias publicações no forum. Para prevenir que os utilizadores reajam às suas publicações, desative esta opção.'
-        react_own_posts_label: 'Os utilizadores podem reagir às suas próprias publicações,'
+          warning: 'A mesma reação <strong>não pode</strong> ser convertida num gosto <strong>e</strong> num voto a favor'
+        react_own_posts_help: 'Quando ativado, e sujeito a permissões, os utilizadores podem reagir às suas próprias publicações no fórum. Para impedir que os utilizadores reajam às suas publicações, desativa esta opção.'
+        react_own_posts_label: 'Os utilizadores podem reagir às suas próprias publicações'
         save_settings: 'Gravar definições'
     permissions:
-      react_posts_label: 'Reagir a uma publicação'
-      see_reactions_label: 'Visualizar quem reagiu a publicações'
+      delete_post_reactions_label: 'Eliminar reações nas publicações'
+      react_posts_label: 'Reagir às publicações'
+      see_reactions_label: 'Visualizar quem reagiu às publicações'
   forum:
-    disabled-reaction: 'Não podes usar esta reação agora, por favor refresca a página'
+    disabled-reaction: 'Não podes usar esta reação agora, por favor atualiza a página'
     mod_item: 'Ver Reações'
     modal:
+      anonymous_count: '{count, plural, one {# utilizador anónimo} other {# utilizadores anónimos}}'
+      no_reactions: 'Ainda não há reações'
       title: Reações
     notification: '{username} reagiu com {reaction} à tua publicação'
     react_button_label: Reagir
