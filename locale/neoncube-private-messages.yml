@@ -4,5 +4,51 @@
 
 neoncube-private-messages:
   admin:
+    permissions:
+      allow_users_to_receive_email_notifications: 'Permitir que os utilizadores recebam notificações por email quando recebem uma mensagem privada'
+      start_label: 'Iniciar conversas privadas'
     settings:
+      enable_custom_colors: 'Ativar cores personalizadas'
+      recipient_background_color: 'Cor de fundo das mensagens recebidas:'
+      recipient_text_color: 'Cor do texto das mensagens recebidas:'
       return_key: 'Enviar mensagem com a tecla Enter'
+      return_key_help: 'Permite que ao pressionar a tecla Enter seja enviada a mensagem. Se esta opção estiver desativada, a tecla Enter criará uma nova linha e o utilizador terá de clicar no botão "Enviar mensagem" para enviar.'
+      sender_background_color: 'Cor de fundo das mensagens enviadas:'
+      sender_text_color: 'Cor do texto das mensagens enviadas:'
+      show_read_receipts: 'Mostrar recibos de leitura'
+      show_read_receipts_help: 'Mostra um indicador junto à mensagem quando o destinatário a leu.'
+  forum:
+    chat:
+      cant_start: 'Não é possível iniciar a conversa'
+      chat_with: 'Conversa com {username}'
+      message_read: 'A mensagem foi lida'
+      messages_multiple: '{count} mensagens no total'
+      messages_single: 'Nova conversa'
+      read: Lida
+      send: 'Enviar Mensagem'
+      start: 'Iniciar Conversa'
+      start_of_conversation: 'Início da Conversa'
+      text_placeholder: 'Escreve a tua mensagem'
+    dropdown:
+      tooltip: Conversas
+    modal:
+      already: 'Já tens uma conversa com {username}.'
+      copied: 'A tua mensagem foi copiada para a área de transferência.'
+      help: 'Começa a escrever o nome de utilizador para iniciar o chat.'
+      help_start: 'Escreve a tua primeira mensagem. Esta será a única que podes enviar até {username} responder. Clica no utilizador para escolher outro destinatário.'
+      more_users: 'Se não vires o utilizador que procuras, é porque não tem mensagens privadas ativadas.'
+      search_recipients: 'Introduz o nome de utilizador...'
+      submit: 'Enviar e Iniciar Conversa'
+      title: 'Iniciar Conversa'
+    notifications:
+      email:
+        new_private_message:
+          manageEmailSettings: 'Gerir definições de email'
+          subject: 'Mensagem de {user}'
+          viewMessage: 'Ver mensagem'
+          youHaveReceivedNewMessage: 'Recebeste uma nova mensagem de {user}!'
+      message_received: Teste
+      new_private_message: 'Alguém envia-me uma mensagem'
+      web:
+        new_private_message:
+          body: 'Mensagem de {fromUser}'
