@@ -170,10 +170,10 @@ CHANGELOG
 * [`the-turk/flarum-stickiest`](https://github.com/the-turk/flarum-stickiest)
 * [`therealsujitk/flarum-ext-gifs`](https://github.com/therealsujitk/flarum-ext-gifs)
 * [`tituspijean/flarum-ext-auth-ldap`](https://github.com/tituspijean/flarum-ext-auth-ldap)
-* [`tohsakarat/post-camera`](https://github.com/tohsakrat/post-camera)
-* [`tohsakarat/save-and-load-draft-automatically`](https://github.com/tohsakrat/save-and-load-draft-automatically)
+* `tohsakarat-post-camera`
+* `tohsakarat-save-and-load-draft-automatically`
 * [`tohsakarat/table-of-content`](https://github.com/tohsakrat/flarum-table-of-content)
-* [`tohsakarat/tags-filter`](https://github.com/tohsakrat/flarum-tags-filter)
+* `tohsakarat-tags-filter`
 * [`tokenjenny/flarum-ext-web3`](https://github.com/tokenjenny/flarum-ext-web3)
 * [`tpokorra/flarum-ext-post-notification`](https://github.com/tpokorra/flarum-ext-post-notification)
 * [`umhelper/oauth-clerk`](https://github.com/UMHelper/flarum-ext-oauth-clerk)
