@@ -45,6 +45,7 @@ CHANGELOG
 * [`fof/profile-image-crop`](https://github.com/FriendsOfFlarum/profile-image-crop)
 * [`fof/pwned-passwords`](https://github.com/FriendsOfFlarum/pwned-passwords)
 * [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions)
+* [`fof/recaptcha`](https://github.com/FriendsOfFlarum/recaptcha)
 * [`fof/sentry`](https://github.com/FriendsOfFlarum/sentry)
 * [`fof/sitemap`](https://github.com/FriendsOfFlarum/sitemap)
 * [`fof/socialprofile`](https://github.com/FriendsOfFlarum/socialprofile)
