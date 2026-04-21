@@ -178,7 +178,7 @@ CHANGELOG
 * [`tpokorra/flarum-ext-post-notification`](https://github.com/tpokorra/flarum-ext-post-notification)
 * [`umhelper/oauth-clerk`](https://github.com/UMHelper/flarum-ext-oauth-clerk)
 * [`v17development/flarum-blog`](https://github.com/v17development/flarum-blog)
-* [`v17development/flarum-seo`](https://github.com/v17development/flarum-seo)
+* [`v17development/flarum-seo`](https://github.com/FriendsOfFlarum/flarum-seo)
 * [`v17development/flarum-support`](https://flarum.org/extension/v17development/flarum-support)
 * [`v17development/flarum-user-badges`](https://github.com/v17development/flarum-user-badges)
 * [`vlssu/flarum-cravatar`](https://github.com/vlssu/flarum-cravatar)
