@@ -125,6 +125,7 @@ php flarum cache:clear
 | [`sycho/flarum-private-facade`](https://github.com/SychO9/flarum-private-facade) | [![Estado da tradução](https://weblate.rob006.net/widgets/flarum2/pt/sycho-private-facade/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/sycho-private-facade/pt/) |
 | [`sycho/flarum-profile-cover`](https://github.com/SychO9/flarum-profile-cover) | [![Estado da tradução](https://weblate.rob006.net/widgets/flarum2/pt/sycho-profile-cover/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/sycho-profile-cover/pt/) |
 | [`vlssu/flarum-cravatar`](https://github.com/vlssu/flarum-cravatar) | [![Estado da tradução](https://weblate.rob006.net/widgets/flarum2/pt/vlssu-cravatar/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/vlssu-cravatar/pt/) |
+| [`walsgit/flarum-discussion-cards`](https://github.com/WalsGit/flarum-discussion-cards) | [![Estado da tradução](https://weblate.rob006.net/widgets/flarum2/pt/walsgit-discussion-cards/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/walsgit-discussion-cards/pt/) |
 | [`walsgit/recycle-bin`](https://github.com/WalsGit/recycle-bin) | [![Estado da tradução](https://weblate.rob006.net/widgets/flarum2/pt/walsgit-recycle-bin/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/walsgit-recycle-bin/pt/) |
 
 <!-- various-extensions-list-stop -->
