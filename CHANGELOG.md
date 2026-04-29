@@ -67,6 +67,7 @@ CHANGELOG
 * [`sycho/flarum-private-facade`](https://github.com/SychO9/flarum-private-facade)
 * [`sycho/flarum-profile-cover`](https://github.com/SychO9/flarum-profile-cover)
 * [`vlssu/flarum-cravatar`](https://github.com/vlssu/flarum-cravatar)
+* [`walsgit/flarum-discussion-cards`](https://github.com/WalsGit/flarum-discussion-cards)
 * [`walsgit/recycle-bin`](https://github.com/WalsGit/recycle-bin)
 
 
