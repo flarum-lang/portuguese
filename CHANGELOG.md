@@ -61,6 +61,7 @@ CHANGELOG
 * [`migratetoflarum/fake-data`](https://github.com/migratetoflarum/fake-data)
 * [`ralkage/flarum-hcaptcha`](https://github.com/Ralkage/flarum-hcaptcha)
 * [`ramon/colored`](https://github.com/ram0ng1/colored)
+* [`rob006/flarum-ext-last-post-avatar`](https://github.com/rob006-software/flarum-ext-last-post-avatar)
 * [`sycho/flarum-advanced-extension-categories`](https://github.com/SychO9/flarum-advanced-extension-categories)
 * [`sycho/flarum-github-milestone`](https://github.com/SychO9/flarum-github-milestone)
 * [`sycho/flarum-move-posts`](https://github.com/SychO9/flarum-move-posts)
