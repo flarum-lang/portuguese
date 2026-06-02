@@ -116,6 +116,7 @@ php flarum cache:clear
 | --- | --- |
 | [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache) | [![Estado da tradução](https://weblate.rob006.net/widgets/flarum2/pt/acpl-lscache/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/acpl-lscache/pt/) |
 | [`acpl/my-tags`](https://github.com/android-com-pl/my-tags) | [![Estado da tradução](https://weblate.rob006.net/widgets/flarum2/pt/acpl-my-tags/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/acpl-my-tags/pt/) |
+| [`antoinefr/flarum-ext-money`](https://github.com/AntoineFr/flarum-ext-money) | [![Estado da tradução](https://weblate.rob006.net/widgets/flarum2/pt/antoinefr-money/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/antoinefr-money/pt/) |
 | [`huseyinfiliz/modern-footer`](https://github.com/huseyinfiliz/modern-footer) | [![Estado da tradução](https://weblate.rob006.net/widgets/flarum2/pt/huseyinfiliz-modern-footer/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/huseyinfiliz-modern-footer/pt/) |
 | [`maicol07/flarum-ext-sso`](https://github.com/maicol07/flarum-ext-sso) | [![Estado da tradução](https://weblate.rob006.net/widgets/flarum2/pt/maicol07-sso/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/maicol07-sso/pt/) |
 | [`michaelbelgium/flarum-discussion-views`](https://github.com/MichaelBelgium/flarum-discussion-views) | [![Estado da tradução](https://weblate.rob006.net/widgets/flarum2/pt/michaelbelgium-discussion-views/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/michaelbelgium-discussion-views/pt/) |
