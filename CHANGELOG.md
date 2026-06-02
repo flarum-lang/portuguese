@@ -16,6 +16,7 @@ CHANGELOG
 
 * [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache)
 * [`acpl/my-tags`](https://github.com/android-com-pl/my-tags)
+* [`antoinefr/flarum-ext-money`](https://github.com/AntoineFr/flarum-ext-money)
 * [`flarum/akismet`](https://github.com/flarum/akismet)
 * [`flarum/approval`](https://github.com/flarum/approval)
 * [`flarum/bbcode`](https://github.com/flarum/bbcode)
