@@ -83,6 +83,7 @@ php flarum cache:clear
 | --- | --- |
 | [`fof/analytics`](https://github.com/FriendsOfFlarum/analytics) | [![Estado da tradução](https://weblate.rob006.net/widgets/flarum2/pt/fof-analytics/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/fof-analytics/pt/) |
 | [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu) | [![Estado da tradução](https://weblate.rob006.net/widgets/flarum2/pt/fof-byobu/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/fof-byobu/pt/) |
+| [`fof/doorman`](https://github.com/FriendsOfFlarum/doorman) | [![Estado da tradução](https://weblate.rob006.net/widgets/flarum2/pt/fof-doorman/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/fof-doorman/pt/) |
 | [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags) | [![Estado da tradução](https://weblate.rob006.net/widgets/flarum2/pt/fof-follow-tags/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/fof-follow-tags/pt/) |
 | [`fof/gamification`](https://github.com/FriendsOfFlarum/gamification) | [![Estado da tradução](https://weblate.rob006.net/widgets/flarum2/pt/fof-gamification/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/fof-gamification/pt/) |
 | [`fof/moderator-notes`](https://github.com/FriendsOfFlarum/moderator-notes) | [![Estado da tradução](https://weblate.rob006.net/widgets/flarum2/pt/fof-moderator-notes/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/fof-moderator-notes/pt/) |
