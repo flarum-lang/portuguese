@@ -37,6 +37,7 @@ CHANGELOG
 * [`flarum/tags`](https://github.com/flarum/tags)
 * [`fof/analytics`](https://github.com/FriendsOfFlarum/analytics)
 * [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu)
+* [`fof/doorman`](https://github.com/FriendsOfFlarum/doorman)
 * [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags)
 * [`fof/gamification`](https://github.com/FriendsOfFlarum/gamification)
 * [`fof/moderator-notes`](https://github.com/FriendsOfFlarum/moderator-notes)
