@@ -36,6 +36,7 @@ CHANGELOG
 * [`flarum/suspend`](https://github.com/flarum/suspend)
 * [`flarum/tags`](https://github.com/flarum/tags)
 * [`fof/analytics`](https://github.com/FriendsOfFlarum/analytics)
+* [`fof/blog`](https://github.com/FriendsOfFlarum/blog)
 * [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu)
 * [`fof/doorman`](https://github.com/FriendsOfFlarum/doorman)
 * [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags)
