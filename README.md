@@ -82,6 +82,7 @@ php flarum cache:clear
 | Extensão | Estado |
 | --- | --- |
 | [`fof/analytics`](https://github.com/FriendsOfFlarum/analytics) | [![Estado da tradução](https://weblate.rob006.net/widgets/flarum2/pt/fof-analytics/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/fof-analytics/pt/) |
+| [`fof/blog`](https://github.com/FriendsOfFlarum/blog) | [![Estado da tradução](https://weblate.rob006.net/widgets/flarum2/pt/fof-blog/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/fof-blog/pt/) |
 | [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu) | [![Estado da tradução](https://weblate.rob006.net/widgets/flarum2/pt/fof-byobu/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/fof-byobu/pt/) |
 | [`fof/doorman`](https://github.com/FriendsOfFlarum/doorman) | [![Estado da tradução](https://weblate.rob006.net/widgets/flarum2/pt/fof-doorman/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/fof-doorman/pt/) |
 | [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags) | [![Estado da tradução](https://weblate.rob006.net/widgets/flarum2/pt/fof-follow-tags/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/fof-follow-tags/pt/) |
