@@ -162,12 +162,12 @@ CHANGELOG
 * [`sycho/flarum-move-posts`](https://github.com/SychO9/flarum-move-posts)
 * [`sycho/flarum-private-facade`](https://github.com/SychO9/flarum-private-facade)
 * [`sycho/flarum-profile-cover`](https://github.com/SychO9/flarum-profile-cover)
-* `the-turk-diff`
-* `the-turk-flamoji`
+* [`the-turk/flarum-diff`](https://github.com/the-turk/flarum-diff)
+* [`the-turk/flarum-flamoji`](https://github.com/the-turk/flarum-flamoji)
 * [`the-turk/flarum-mathren`](https://github.com/the-turk/flarum-mathren)
-* `the-turk-miserable-users`
-* `the-turk-nodp`
-* `the-turk-quiet-edits`
+* [`the-turk/flarum-miserable-users`](https://github.com/the-turk/flarum-miserable-users)
+* [`the-turk/flarum-nodp`](https://github.com/the-turk/flarum-nodp)
+* [`the-turk/flarum-quiet-edits`](https://github.com/the-turk/flarum-quiet-edits)
 * [`the-turk/flarum-stickiest`](https://github.com/the-turk/flarum-stickiest)
 * [`therealsujitk/flarum-ext-gifs`](https://github.com/therealsujitk/flarum-ext-gifs)
 * [`tituspijean/flarum-ext-auth-ldap`](https://github.com/tituspijean/flarum-ext-auth-ldap)
@@ -198,7 +198,7 @@ CHANGELOG
 * [`xypp/forum-quests`](https://github.com/zxy19/flarum-forum-quests)
 * [`xypp/flarum-invite-user`](https://github.com/zxy19/flarum-invite-user)
 * [`xypp/flarum-pay-cccyun`](https://flarum.org/extension/xypp/flarum-pay-cccyun)
-* `zerosonesfun-bbcode-button`
+* [`zerosonesfun/flarum-bbcode-button`](https://github.com/zerosonesfun/flarum-bbcode-button)
 * [`zerosonesfun/expired-posts`](https://github.com/zerosonesfun/expired-posts)
 * [`ziiven/flarum-daily-check-in`](https://github.com/Ziiven/flarum-daily-check-in)
 * [`ziiven/flarum-decoration-store`](https://flarum.org/extension/ziiven/flarum-decoration-store)
