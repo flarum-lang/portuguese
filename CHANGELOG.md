@@ -38,6 +38,7 @@ CHANGELOG
 * [`fof/analytics`](https://github.com/FriendsOfFlarum/analytics)
 * [`fof/blog`](https://github.com/FriendsOfFlarum/blog)
 * [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu)
+* [`fof/cookie-consent`](https://github.com/FriendsOfFlarum/cookie-consent)
 * [`fof/doorman`](https://github.com/FriendsOfFlarum/doorman)
 * [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags)
 * [`fof/gamification`](https://github.com/FriendsOfFlarum/gamification)
