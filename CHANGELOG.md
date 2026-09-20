@@ -5,14 +5,14 @@ CHANGELOG
 2.0.0 (XXXX-XX-XX)
 ------------------
 
-**Alterações genéricas**:
+**General changes**:
 
-* Traduções Day.js actualizadas.
-* Traduções essenciais do Flarum actualizadas.
-* Validação das traduções actualizada.
+* Updated Flarum core translations (527 added).
+* Updated validation translations (25 added).
+* Updated Day.js translations.
 
 
-**Adicionado suporte para novas extensões**:
+**Added support for new extensions**:
 
 * [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache)
 * [`acpl/my-tags`](https://github.com/android-com-pl/my-tags)
