@@ -5,14 +5,14 @@ CHANGELOG
 1.0.0 (XXXX-XX-XX)
 ------------------
 
-**Alterações genéricas**:
+**General changes**:
 
-* Traduções Day.js actualizadas.
-* Traduções essenciais do Flarum actualizadas.
-* Validação das traduções actualizada.
+* Updated Flarum core translations (564 added).
+* Updated validation translations (96 added).
+* Updated Day.js translations.
 
 
-**Adicionado suporte para novas extensões**:
+**Added support for new extensions**:
 
 * [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache)
 * [`acpl/mobile-tab`](https://github.com/android-com-pl/mobile-tab)
@@ -103,10 +103,10 @@ CHANGELOG
 * [`matteociaroni/flarum-old-content`](https://github.com/matteociaroni/flarum-old-content)
 * [`matteociaroni/flarum-public-suspensions`](https://github.com/matteociaroni/flarum-public-suspensions)
 * [`matteocontrini/flarum-imgur-upload`](https://github.com/matteocontrini/flarum-imgur-upload)
+* [`mattoid/flarum-ext-store`](https://github.com/Mattoids/flarum-ext-store)
 * [`mattoid/flarum-ext-store-auto-check-in`](https://github.com/Mattoids/flarum-ext-store-auto-check-in)
 * [`mattoid/flarum-ext-store-check-in`](https://github.com/Mattoids/flarum-ext-store-check-in)
 * [`mattoid/flarum-ext-store-invite`](https://github.com/Mattoids/flarum-ext-store-invite)
-* [`mattoid/flarum-ext-store`](https://github.com/Mattoids/flarum-ext-store)
 * [`michaelbelgium/flarum-discussion-views`](https://github.com/MichaelBelgium/flarum-discussion-views)
 * [`michaelbelgium/mybb-to-flarum`](https://github.com/MichaelBelgium/mybb_to_flarum)
 * [`michaelbelgium/flarum-profile-views`](https://github.com/MichaelBelgium/flarum-profile-views)
