@@ -44,7 +44,7 @@ CHANGELOG
 * [`fof/gamification`](https://github.com/FriendsOfFlarum/gamification) (94% complete)
 * [`fof/moderator-notes`](https://github.com/FriendsOfFlarum/moderator-notes) (94% complete)
 * [`fof/moderator-warnings`](https://github.com/FriendsOfFlarum/moderator-warnings) (71% complete)
-* [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth) (75% complete)
+* [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth) (72% complete)
 * [`fof/polls`](https://github.com/FriendsOfFlarum/polls) (72% complete)
 * [`fof/profile-image-crop`](https://github.com/FriendsOfFlarum/profile-image-crop) (14% complete)
 * [`fof/pwned-passwords`](https://github.com/FriendsOfFlarum/pwned-passwords) (66% complete)
