@@ -10,6 +10,11 @@ CHANGELOG
 * Updated Day.js translations.
 
 
+**Updated translations for extensions**:
+
+* [`flarum/gdpr`](https://github.com/flarum/gdpr) (4 added, 20% complete)
+
+
 All changes: [2.0.1...2.0.2](https://github.com/flarum-lang/portuguese/compare/2.0.1...2.0.2).
 
 
