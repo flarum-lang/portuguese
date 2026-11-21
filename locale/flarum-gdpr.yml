@@ -20,8 +20,12 @@ flarum-gdpr:
         heading: 'Definições do RGPD'
         help_text: 'À procura das definições do RGPD? Estas podem ser encontradas na página de extensões.'
       user_table_data:
+        column: Coluna
         help_text: "Na maioria dos casos, quaisquer colunas adicionadas à tabela <code>user</code> serão tratados automaticamente, quer na exportação ou remoção de dados.\nPorém, existem alguns casos especiais, que se encontram listados abaixo.\n"
+        nullable: Anulável
+        pii: Pii
         title: 'Dados da tabela de utilizadores'
+        type: Tipo
     nav:
       gdpr_button: 'Integrações do RGPD'
     permissions:
