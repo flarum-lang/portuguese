@@ -1,23 +1,20 @@
 {
 	"name": "flarum-lang/portuguese",
+	"description": "Portuguese Language Pack for Flarum",
 	"type": "flarum-extension",
-	"description": "Portuguese language pack for Flarum.",
-	"homepage": "https://github.com/flarum-lang/portuguese",
 	"keywords": [
-		"locale",
-		"flarum",
-		"pt-locale"
+		"flarum-locale"
 	],
+	"homepage": "https://github.com/flarum-lang/portuguese",
 	"license": "MIT",
 	"support": {
 		"issues": "https://github.com/flarum-lang/portuguese/issues",
+		"forum": "https://discuss.flarum.org/d/40209",
 		"source": "https://github.com/flarum-lang/portuguese"
 	},
 	"require": {
 		"flarum/core": "^2.0"
 	},
-	"minimum-stability": "dev",
-	"prefer-stable": true,
 	"extra": {
 		"flarum-extension": {
 			"title": "Portuguese",
@@ -30,13 +27,7 @@
 		},
 		"flarum-locale": {
 			"code": "pt",
-			"title": "Portuguese"
-		},
-		"extiverse": {
-			"discuss": ""
-		},
-		"branch-alias": {
-			"dev-master": "1.x-dev"
+			"title": "Português"
 		}
 	}
 }
